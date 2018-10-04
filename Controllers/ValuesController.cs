@@ -14,7 +14,7 @@ namespace dockerresearch.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "web api called", "multi container volume sharing" };
+            return new string[] { "web api called - Updated", "Version 1.1" };
         }
 
         // GET api/values/5
